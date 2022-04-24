@@ -10,7 +10,8 @@ Paso 4: se corrigen algunos los errores y se realizan algunos ajustes en el esti
 paso 5: se trabaja en el estilo de la pagina incluyendo preferentemente clases de bootstraps, tambien se inlcuye una hoja de estilos personalizada. 
 paso 6: se trabaja en jquery para icorporar los script que dan animacion a la página.
 
-cada 
+Nota: en este proyecto se hace referencia a las clases de boostraps V 5.1
+Font-awesome 5.15.4
 
 HEADER
 Incluye un navbar y un carousel de bootstraps dentro de un div contenedor. Para fijarla en el espacio indicado en la plantilla y sobre el carousel se utiliza la clase fixed-top.
@@ -35,5 +36,5 @@ Se incluye una grilla de bootstraps divida en dos partes, una con 4 columnas, do
 CSS
 
 TIPOGRAFÍA
-Fuente utilizada es Monserrat light y Normal declara en la etiqueda Body
+La Fuente utilizada es Monserrat, en estilo light(300) y Normal(500). Se incluye en la etiqueda Body del CSS personalizado.
 

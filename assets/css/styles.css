@@ -1,3 +1,7 @@
+/* clases por etiqueta */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Monserrat;
     
@@ -5,6 +9,18 @@ body{
 
 footer{
     background-color: #0dcaf0;
+}
+h1{
+    font-weight: 500;
+    font: 500,Monserrat;
+}
+h2{
+    font-weight: 500;
+    font: 500,Monserrat;
+}
+p{
+    font-weight: 300;
+    font: 300,Monserrat;
 }
 hr{
     color: darkgray;
@@ -19,5 +35,4 @@ hr{
 }
 .inblock{
     display: block
-    position: absolute
 }
