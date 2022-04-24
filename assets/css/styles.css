@@ -1,6 +1,14 @@
+body{
+    font-family: Monserrat;
+    
+}
 
 footer{
     background-color: #0dcaf0;
+}
+hr{
+    color: darkgray;
+    width: 80%;
 }
 /* clases  */
 .bg-cian{
@@ -8,4 +16,8 @@ footer{
 }
 .inline{
     display: inline;
+}
+.inblock{
+    display: block
+    position: absolute
 }
