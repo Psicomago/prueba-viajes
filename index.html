@@ -7,121 +7,154 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="https://kit.fontawesome.com/35207aa8d7.js" crossorigin="anonymous"></script>
 <title>Viajes Chile</title>
 </head>
 <body>
   <header>
-        <nav class="navbar navbar-light bg-transparent fixed-top">
-            <div class="container text-fluid">
-                <a class="navbar-brand" href="#">
-                <img src="assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Viajes Chile
-                </a>
-                <!-- botones menú -->
-                <div class="d-flex">
-                    <button type="button" class="btn btn-link">Link</button>
-                    <button type="button" class="btn btn-link">Link</button>
-                    <button type="button" class="btn btn-link">Link</button>
-                </div>
-                    <!--  -->
-            </div>
-        </nav>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
+    <nav class="navbar navbar-light bg-transparent fixed-top">
+      <div class="container text-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Viajes Chile
+        </a>
+        <!-- botones menú -->
+        <div class="d-flex">
+          <button type="button" class="btn btn-dark bg-transparent">inicio</button>
+          <button type="button" class="btn btn-dark bg-transparent">Quines somos</button>
+          <button type="button" class="btn btn-dark bg-transparent">Destacados</button>
+          <button type="button" class="btn btn-dark bg-transparent">Contacto</button>
         </div>
-    </header>
-    <main id="main" class="container-fluid bg-dark">
-        <section id="quienes_somos">
-          <hr class="text-white my-5">
-          <div class="container">
-              <div class="row">
-                <div class="col">
-                  <div class="d-flex justify-content-center bg cian">
-                      <i class="fa-brands fa-cc-visa text-white fa-3x iconos" ></i>
-                        </div>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium non veritatis reiciendis, dignissimos optio repellendus assumenda necessitatibus? Tempora cupiditate veniam asperiores non, officiis voluptate obcaecati vero molestias, excepturi veritatis eum.</p>
-                      </div>
-                      <div class="col">
-                        <div class="d-flex justify-content-center bg-cian">
-                            <i class="fa-brands fa-cc-visa text-white fa-3x bg-cian" ></i>
-                        </div>   
-                        <p class="text.white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nostrum voluptatum dolore pariatur ipsum ex molestiae qui labore laudantium. Iusto possimus fuga quas soluta beatae libero numquam necessitatibus quidem asperiores!</p>
-                      </div>
-                      <div class="col">
-                        <div class="d-flex justify-content-center bg-cian">
-                            <i class="fa-brands fa-cc-visa text-white fa-3x bg-cian" ></i>
-                        </div>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure consequuntur molestias pariatur dolore quasi maxime dolorum! Numquam perferendis eos quo similique accusantium corrupti libero a nemo! Quia, dolorum error.</p>
-                      </div>
-                    </div>
-                  </div>
+      </div>
+    </nav>
+    <!-- corusel de bootstraps -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="container-fluid bg-dark">
+    <section id="quienes_somos">
+      <hr class="text-white my-5">
+      <div class="container">
+        <!-- se incluye grilla boostraps -->
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-center bg-cian">
+              <i class="fa-brands fa-avianex text-white fa-2x"></i>
+              <!-- <i class="fa-brands fa-cc-visa text-white fa-3x iconos" ></i> -->
             </div>
-        </section>
-        <section id="destacados">
-          <!-- se usa una clase contendora para mantener una coherencia visual -->
-          <div class="container">
-            <!-- se incluye una grilla bootstraps -->
-            <div class="row">
-              <!-- tarjeta 1 serie de tarjetas bootstraps -->
-              <div class="col-12 col-md-3 py-5">
-                <div class="card" style="width: 100%;">
-                  <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- tarjeta 2 -->
-              <div class="col-12 col-md-3 py-5">
-                <div class="card" style="width: 100%;">
-                  <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- tarjeta 3-->
-              <div class="col-12 col-md-3 py-5">
-                <div class="card" style="width: 100%;">
-                  <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- tarjeta 4 -->
-              <div class="col-12 col-md-3 py-5">
-                <div class="card" style="width: 100%;">
-                  <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium non veritatis reiciendis, dignissimos optio repellendus assumenda necessitatibus? Tempora cupiditate veniam asperiores non, officiis voluptate obcaecati vero molestias, excepturi veritatis eum.</p>
+          </div>
+          <div class="col">
+            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nostrum voluptatum dolore pariatur ipsum ex molestiae qui labore laudantium. Iusto possimus fuga quas soluta beatae libero numquam necessitatibus quidem asperiores!</p>
+            <div class="d-flex justify-content-center bg-cian">
+              <i class="fa-solid fa-mountain text-white fa-2x"></i>
+            </div>   
+          </div>
+          <div class="col">
+            <div class="d-flex justify-content-center bg-cian">
+              <i class="fa-solid fa-route text-white fa-2x"></i>
+            </div>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure consequuntur molestias pariatur dolore quasi maxime dolorum! Numquam perferendis eos quo similique accusantium corrupti libero a nemo! Quia, dolorum error.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="destacados">
+      <!-- se usa una clase contendora para mantener una coherencia visual -->
+      <div class="container">
+        <!-- se incluye una grilla bootstraps -->
+        <div class="row">
+          <!-- tarjeta 1 serie de tarjetas bootstraps -->
+          <div class="col-12 col-md-3 py-5">
+            <div class="card" style="width: 100%;">
+              <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          
-        </section>
-        <section id="contacto">
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+          <!-- tarjeta 2 -->
+          <div class="col-12 col-md-3 py-5">
+            <div class="card" style="width: 100%;">
+              <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <!-- tarjeta 3-->
+          <div class="col-12 col-md-3 py-5">
+            <div class="card" style="width: 100%;">
+              <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <!-- tarjeta 4 -->
+          <div class="col-12 col-md-3 py-5">
+            <div class="card" style="width: 100%;">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <form class="p-5 m-5">
+        <div class="container">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text text-white">Nunca compatiremos su correo electrónico.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="input-group">
+            <label for="exampleInputEmail1" class="form-label text-white">Mensaje</label>
+            <!-- <span class="input-group-text"></span> -->
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>  
+    </section>
+  </main>
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="container">
+        <div>
+          <h3 class="inline">viajes Chile</h3>
+        </div>
+        <div>
+          <i class="fa-brands fa-github inline text-white bg-cian"></i> 
+          <i class="fa-brands fa-linkedin inline"></i>
+          <i class="fa-brands fa-twitter-square inline"></i>
+          <i class="fa-brands fa-facebook-square inline"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
     
